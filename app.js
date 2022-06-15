@@ -114,7 +114,8 @@ app.post('/addwork',function(req,res){
     var newPainting=new PaintingData(newWork);
     newPainting.save();
 })
-const PORT=process.env.PORT||3000;
-app.listen(PORT,()=>{
-    console.log(`Our library app is running on port ${PORT}`);
-});
+// const PORT=process.env.PORT||3000;
+// app.listen(PORT,()=>{
+//     console.log(`Our library app is running on port ${PORT}`);
+// });
+app.listen(3000)
